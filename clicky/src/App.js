@@ -3,8 +3,8 @@
 //shuffle the cars cards when they are clicked
 // render a Card component for each card object
 import React, { Component } from "react";
-import Card from "./components/CardBox";
-import Container from "./components/MainContainer";
+import Card from "./components/cardbox/Card";
+import Container from "./components/maincontainer/container";
 import Score from "./components/Score";
 import cars from "./cards.json";
 import "./App.css";
